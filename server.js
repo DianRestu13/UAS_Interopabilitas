@@ -47,9 +47,8 @@ app.get('/api/vendorA/products', (req, res) => {
 });
 
 // Menjalankan server
-app.listen(port, () => {
-    console.log(`API Vendor A (Warung Legacy) berjalan di http://localhost:${port}`);
-    console.log(`Cek data: http://localhost:${port}/api/vendorA/products`);
+app.get('/api/vendorA/products', (req, res) => {
+  res.status(200).json(vendorAData);
 });
 
 module.exports = app;
