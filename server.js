@@ -1,7 +1,7 @@
 // Mengimpor modul Express
-const express = require('express');
-const app = express();
-const port = 3000; // Gunakan port unik, misalnya 3001, karena Vendor B dan C mungkin menggunakan port lain
+// const express = require('express');
+// const app = express();
+// const port = 3000; // Gunakan port unik, misalnya 3001, karena Vendor B dan C mungkin menggunakan port lain
 
 const cors = require('cors');
 app.use(cors());
