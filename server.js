@@ -12,8 +12,12 @@ const vendorAData = [
   { kd_produk: "A005", nm_brg: "Telur Ayam Kampung 1kg", hrg: "25000", ket_stok: "habis" }
 ];
 
+app.get('/', (req, res) => {
+  res.json(vendorAData);
+});
+
 app.get('/api/vendorA', (req, res) => {
   res.json(vendorAData);
 });
 
-module.exports = app; 
+module.exports = app;
