@@ -51,3 +51,5 @@ app.listen(port, () => {
     console.log(`API Vendor A (Warung Legacy) berjalan di http://localhost:${port}`);
     console.log(`Cek data: http://localhost:${port}/api/vendorA/products`);
 });
+
+module.exports = app;
