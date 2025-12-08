@@ -33,8 +33,8 @@ const products = [
             name: "Sate Ayam",
             category: 'Food'
         },
-        princing: {
-            base_prince: 15000,
+        pricing: {
+            base_price: 15000,
             tax: 1500
         },
         stock: 30
@@ -45,8 +45,8 @@ const products = [
             name: "Jus Jambu",
             category: 'Drink'
         },
-        princing: {
-            base_prince: 12000,
+        pricing: {
+            base_price: 12000,
             tax: 1200
         },
         stock: 20
