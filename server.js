@@ -85,7 +85,9 @@ app.get('/api/products/:id', (req, res) => {
             message: `Produk dengan ID${id} tidak ditemukan`
         });
     }
+    res.json(item);
 });
+
 
 app.listen(port, () => {
     console.log(`Server berjalan di http://localhost:${port}`);
