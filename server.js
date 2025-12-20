@@ -79,7 +79,7 @@ app.get('/api/products/:id', (req, res) => {
 
     const item = products.find(p => p.id === id);
     if (!item) {
-        return res.status(404).jsom({
+        return res.status(404).json({
             success: false,
             error: 'Menu not found',
             message: `Produk dengan ID${id} tidak ditemukan`
