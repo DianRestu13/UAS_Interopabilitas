@@ -16,12 +16,14 @@ Seperti field sku dan productName menggunakan tipe data String, price menggunaka
 4. Bahasa Inggris
 Ini digunakan untuk meningkatkan kompatibilitas dengan sistem internasional.
 5. Contoh Struktur Datanya
+    ```json
     {
-      "sku": "TSHIRT-001",
-      "productName": "Kaos Ijen Crater",
-      "price": 75000,
-      "isAvailable": true
+    "sku": "TSHIRT-001",
+    "productName": "Kaos Ijen Crater",
+    "price": 75000,
+    "isAvailable": true
     }
+
 ### PENGUJIAN API 
 1. Teknologi yang Digunakan
     * Node.js
@@ -54,10 +56,17 @@ Repository GitHub dihubungkan ke akun Vercel sehingga proses build dan deploy da
 
 ### KESESUAIAN DENGAN KRITERIA PENILAIAN
 Vendor B telah memenuhi kriteria penilaian UAS, yaitu:
-* JSON valid dan bisa diparse
-* Menggunakan tipe data Number dan Boolean
-* Struktur data rapi dan konsisten
-* Mudah diintegrasikan dengan Backend Integrator
+1. JSON valid dan bisa diparse
+2. Menggunakan tipe data Number dan Boolean
+3. Struktur data rapi dan konsisten
+4. Mudah diintegrasikan dengan Backend Integrator
 
 ### KESIMPULAN
 Vendor B berhasil mengimplementasikan layanan API modern dengan struktur data yang rapi, konsisten, dan sesuai standar internasional. Dengan penggunaan Express.js serta format JSON yang jelas, Vendor B siap digunakan sebagai salah satu sumber data dalam sistem Banyuwangi Marketplace dan dapat diintegrasikan dengan vendor lain secara optimal.
+
+### DOKUMENTASI
+1. Vercel
+![alt text](Assets/Vercel.png)
+
+2. Postman
+![alt text](Assets/Postman.png)
